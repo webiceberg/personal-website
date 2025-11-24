@@ -4,23 +4,14 @@
         "altText": "Ayberk Aktürk mark",
         "type": "ImageBlock"
     },
-    "text": "Ayberk Aktürk is a Vancouver-based cinematographer capturing thoughtful brand films and intimate documentaries.",
+    "text": "Ayberk Aktürk is a Vancouver-based director crafting human stories through light, movement, and precise editing.",
     "primaryLinks": {
         "title": "Navigate",
         "links": [
             {
-                "label": "Scenes",
-                "altText": "Scenes section",
-                "url": "/#scenes",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Services",
-                "altText": "Services section",
-                "url": "/#services",
+                "label": "Films",
+                "altText": "Featured films",
+                "url": "/#work",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -34,6 +25,15 @@
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
+            },
+            {
+                "label": "Reel",
+                "altText": "Reel section",
+                "url": "/#reel",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
             }
         ],
         "type": "FooterLinksGroup"
@@ -42,18 +42,18 @@
         "title": "Contact",
         "links": [
             {
-                "label": "Email",
-                "altText": "Email Ayberk",
-                "url": "mailto:hello@ayberkakturk.com",
+                "label": "Book a shoot",
+                "altText": "Contact section",
+                "url": "/#contact",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Contact",
-                "altText": "Contact section",
-                "url": "/#contact",
+                "label": "Email",
+                "altText": "Email Ayberk",
+                "url": "mailto:hello@ayberkakturk.com",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

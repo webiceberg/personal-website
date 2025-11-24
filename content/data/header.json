@@ -13,18 +13,9 @@
     },
     "primaryLinks": [
         {
-            "label": "Scenes",
-            "altText": "Jump to highlight section",
-            "url": "/#scenes",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Services",
-            "altText": "Jump to services",
-            "url": "/#services",
+            "label": "Films",
+            "altText": "Jump to featured work",
+            "url": "/#work",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -40,9 +31,9 @@
             "type": "Link"
         },
         {
-            "label": "Contact",
-            "altText": "Jump to contact section",
-            "url": "/#contact",
+            "label": "Reel",
+            "altText": "Jump to reel section",
+            "url": "/#reel",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -51,7 +42,7 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Email Ayberk",
+            "label": "Email",
             "altText": "Email Ayberk Aktürk",
             "url": "mailto:hello@ayberkakturk.com",
             "icon": "arrowRight",
@@ -60,8 +51,8 @@
             "type": "Button"
         },
         {
-            "label": "Book Ayberk",
-            "altText": "Book Ayberk",
+            "label": "Book a shoot",
+            "altText": "Jump to contact form",
             "url": "/#contact",
             "icon": "arrowRight",
             "iconPosition": "right",

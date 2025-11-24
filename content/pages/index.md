@@ -4,22 +4,21 @@ slug: /
 sections:
   - type: GenericSection
     elementId: hero
-    colors: bg-dark-fg-light
+    colors: bg-light-fg-dark
     badge:
-      label: Ayberk Aktürk
+      label: Director & Cinematographer
       color: text-primary
       type: Badge
     title:
-      text: Cinematic videographer for thoughtful brands
-      color: text-light
+      text: Ayberk Aktürk
+      color: text-dark
       type: TitleBlock
-    subtitle: Director of Photography · Vancouver / Worldwide
+    subtitle: Films for brands, founders, and artists who care about feeling as much as fidelity.
     text: |-
-      I craft restrained, human films for founders, fashion houses, and cultural
-      institutions. Minimal crews, cinematic light, story-first delivery.
+      I design light, capture motion, and edit with intention. Every project is a one-off crafted end-to-end—from scouting to final color—so the story stays honest and the frames stay calm.
     actions:
-      - label: Play showreel
-        altText: Jump to the showreel
+      - label: Watch the reel
+        altText: Jump to the reel
         url: /#reel
         showIcon: true
         icon: play
@@ -27,7 +26,7 @@ sections:
         style: primary
         type: Button
       - label: Book a shoot
-        altText: Jump to contact
+        altText: Jump to contact form
         url: /#contact
         showIcon: true
         icon: arrowRight
@@ -36,7 +35,7 @@ sections:
         type: Link
     media:
       url: /images/main-hero.jpg
-      altText: Cinematic still of Ayberk filming on set
+      altText: Ayberk shooting on set
       type: ImageBlock
       styles:
         self:
@@ -48,239 +47,160 @@ sections:
         padding:
           - pt-24
           - pb-24
-          - pl-12
-          - pr-12
+          - pl-16
+          - pr-16
   - type: FeaturedItemsSection
-    elementId: scenes
+    elementId: work
     title:
-      text: Recent scenes
+      text: Selected films
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Lean shoots, crafted in-camera, color-finished in-house.
+    subtitle: Launch campaigns, short documentaries, and intimate brand stories shot on RED + FX6.
     items:
       - type: FeaturedItem
-        title: 47
-        subtitle: films delivered in 2024
-        text: From teaser loops to 12-minute documentaries.
-        colors: bg-light-fg-dark
+        title: "Nacre — Product Story"
+        subtitle: Tactile macro shots + minimal voiceover
+        text: >-
+          Directed, lit, and edited a silent film for a design studio. Macro
+          glass, soft key, and custom foley build a serene rhythm in 90 seconds.
+        image:
+          url: /images/abstract-feature1.svg
+          altText: Product film frames
+          type: ImageBlock
+        actions:
+          - label: Request private link
+            url: mailto:hello@ayberkakturk.com?subject=Nacre%20Film
+            style: secondary
+            icon: arrowRight
+            iconPosition: right
+            type: Link
+        colors: bg-neutralAlt-fg-dark
       - type: FeaturedItem
-        title: 14
-        subtitle: cities filmed
-        text: Vancouver, Lisbon, Istanbul, Seoul, and more.
-        colors: bg-light-fg-dark
+        title: "Transit — Short Documentary"
+        subtitle: Shot in Lisbon & Istanbul
+        text: >-
+          Dual-language mini doc following two dancers. Handheld anamorphic,
+          available light, and layered field recordings carry the story.
+        image:
+          url: /images/abstract-feature2.svg
+          altText: Documentary frames
+          type: ImageBlock
+        colors: bg-neutralAlt-fg-dark
       - type: FeaturedItem
-        title: 6
-        subtitle: international awards
-        text: Honored by ADC, Applied Arts, and Motion Awards.
-        colors: bg-light-fg-dark
+        title: "Forma — Launch Film"
+        subtitle: Brand anthem for a VC-backed startup
+        text: >-
+          Built a hybrid set blending practical haze with LED walls. Delivered a
+          45 second hero cut plus looping cuts for product screens.
+        image:
+          url: /images/abstract-feature3.svg
+          altText: Launch film frames
+          type: ImageBlock
+        colors: bg-neutralAlt-fg-dark
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
-          - pt-12
-          - pb-12
-          - pl-10
-          - pr-10
-  - type: GenericSection
-    elementId: reel
-    colors: bg-light-fg-dark
-    badge:
-      label: Showreel
-      color: text-primary
-      type: Badge
-    title:
-      text: 90 seconds of light & motion
-      color: text-dark
-      type: TitleBlock
-    text: Filmed on FX6 + RED Komodo with Zeiss glass. Graded in DaVinci.
-    media:
-      title: Ayberk Aktürk Reel 2025
-      url: /images/placeholder-video.mp4
-      autoplay: false
-      loop: false
-      muted: false
-      controls: true
-      aspectRatio: '16:9'
-      styles:
-        self:
-          borderRadius: large
-      type: VideoBlock
-    actions:
-      - label: Watch on Vimeo
-        url: https://www.vimeo.com/
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Link
-    styles:
-      self:
-        flexDirection: col
-        padding:
           - pt-16
           - pb-16
-          - pl-12
-          - pr-12
-  - type: FeaturedItemsSection
-    elementId: services
-    title:
-      text: Services
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Full-stack video production, sized for modern launches.
-    items:
-      - type: FeaturedItem
-        title: Brand Films
-        text: Concept, direction, and on-set leadership for campaigns and launches.
-        image:
-          url: /images/icon1.svg
-          altText: Brand film icon
-          type: ImageBlock
-        colors: bg-light-fg-dark
-      - type: FeaturedItem
-        title: Documentary Portraits
-        text: Intimate interviews + vérité coverage for founders and artists.
-        image:
-          url: /images/icon2.svg
-          altText: Documentary icon
-          type: ImageBlock
-        colors: bg-light-fg-dark
-      - type: FeaturedItem
-        title: Post & Color
-        text: Editing, grade, sound mix, and delivery in every requested format.
-        image:
-          url: /images/icon3.svg
-          altText: Post production icon
-          type: ImageBlock
-        colors: bg-light-fg-dark
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-18
-          - pb-18
           - pl-10
           - pr-10
   - type: GenericSection
     elementId: approach
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     badge:
       label: Approach
       color: text-primary
       type: Badge
     title:
-      text: Quiet, precise, collaborative
+      text: Quiet sets, intentional edits
       color: text-dark
       type: TitleBlock
     text: |-
-      1. **Treatment & schedule.** We define tone, shot list, and logistics in a
-      90-minute working session.
+      1. **Listen.** Define mood, pacing, and purpose in one short workshop—no decks, just references.
 
-      2. **Shoot.** Lean crew, natural light first, then add shape with practical
-      rigs. Daily stills for feedback.
+      2. **Shape.** Scout light, lock movement, and build a micro-crew. Still frames and lighting diagrams keep everyone aligned.
 
-      3. **Finish.** Edit, color, mix, mastering, and multi-format delivery with a
-      detailed usage guide.
+      3. **Polish.** Grade in DaVinci, finish sound in Atmos, and deliver ready-to-share masters plus cutdowns.
+    styles:
+      self:
+        flexDirection: col
+        padding:
+          - pt-16
+          - pb-12
+          - pl-12
+          - pr-12
+  - type: GenericSection
+    elementId: reel
+    colors: bg-neutral-fg-dark
+    badge:
+      label: 2025 Reel
+      color: text-primary
+      type: Badge
+    title:
+      text: Two minutes of recent frames
+      color: text-dark
+      type: TitleBlock
+    subtitle: Filmed across Vancouver, Istanbul, Lisbon, and remote mountain ranges.
+    actions:
+      - label: Watch on Vimeo
+        url: https://www.youtube.com/
+        icon: play
+        iconPosition: right
+        style: secondary
+        type: Link
+    media:
+      title: Ayberk Aktürk Reel
+      url: /images/placeholder-video.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: true
+      aspectRatio: '16:9'
+      styles:
+        self:
+          padding:
+            - pt-2
+            - pb-2
+            - pl-2
+            - pr-2
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+      type: VideoBlock
     styles:
       self:
         flexDirection: col
         padding:
           - pt-16
           - pb-16
-          - pl-12
-          - pr-12
-  - type: FeaturedItemsSection
-    elementId: work
-    title:
-      text: Spotlight work
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Selected collaborations from the past year.
-    items:
-      - type: FeaturedItem
-        title: Lumière Atelier
-        subtitle: Resort launch film
-        text: Shot in Provence at sunrise + dusk; tactile macro shots paired with whispered VO.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Lumière still
-          type: ImageBlock
-        actions:
-          - label: View stills
-            url: /blog/case-study-1
-            style: secondary
-            icon: arrowRight
-            iconPosition: right
-            type: Link
-        colors: bg-light-fg-dark
-      - type: FeaturedItem
-        title: Meridian Instruments
-        subtitle: Founder profile short
-        text: Industrial textures meet delicate portraiture inside a working lab.
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Meridian still
-          type: ImageBlock
-        actions:
-          - label: Watch excerpt
-            url: /#reel
-            style: secondary
-            icon: play
-            iconPosition: right
-            type: Link
-        colors: bg-light-fg-dark
-    variant: two-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pb-16
-          - pl-10
-          - pr-10
+          - pl-16
+          - pr-16
   - type: GenericSection
     elementId: contact
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     badge:
-      label: Contact
+      label: Booking
       color: text-primary
       type: Badge
     title:
-      text: Tell me about the film you need
+      text: Tell me about the story
       color: text-dark
       type: TitleBlock
+    subtitle: I take on one commission at a time to keep the process personal.
     text: |-
-      Share a brief, deck, or even a single reference clip. I respond within two
-      business days with a schedule and budget range.
-    actions:
-      - label: Email hello@ayberkakturk.com
-        url: mailto:hello@ayberkakturk.com
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: Download rate sheet
-        url: /pricing
-        icon: arrowRight
-        iconPosition: right
-        style: link
-        type: Link
+      Share a few lines about the mood, location, and timeline. I’ll reply within two business days with availability and a first creative direction.
     media:
       type: FormBlock
       elementId: contact-form
       submitButton:
         type: SubmitButtonFormControl
-        label: Send request
+        label: Send treatment request
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -296,14 +216,14 @@ sections:
         - name: email
           label: Email
           hideLabel: true
-          placeholder: Your email
+          placeholder: Contact email
           isRequired: true
           width: full
           type: EmailFormControl
         - name: project
-          label: Project
+          label: Project type
           hideLabel: true
-          placeholder: Launch, campaign, or story
+          placeholder: Shoot details, dates, mood
           width: full
           type: TextareaFormControl
       styles:
@@ -322,13 +242,13 @@ sections:
         flexDirection: row
         alignItems: center
         padding:
-          - pt-18
-          - pb-18
-          - pl-12
-          - pr-12
+          - pt-16
+          - pb-16
+          - pl-16
+          - pr-16
 seo:
-  metaTitle: Ayberk Aktürk — Cinematic Videographer
-  metaDescription: One-page portfolio for Ayberk Aktürk, a Vancouver-based cinematographer creating refined brand films, documentaries, and showreels.
+  metaTitle: Ayberk Aktürk — Director & Cinematographer
+  metaDescription: One-page portfolio for Ayberk Aktürk, a Vancouver-based videographer crafting launch films, short docs, and branded stories with intentional light and sound.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
