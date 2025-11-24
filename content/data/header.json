@@ -13,18 +13,27 @@
     },
     "primaryLinks": [
         {
-            "label": "Films",
-            "altText": "Jump to featured work",
-            "url": "/#work",
+            "label": "About",
+            "altText": "Jump to about section",
+            "url": "/#about",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
         },
         {
-            "label": "Approach",
-            "altText": "Jump to approach section",
-            "url": "/#approach",
+            "label": "Services",
+            "altText": "Jump to services",
+            "url": "/#services",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Work",
+            "altText": "Jump to selected work",
+            "url": "/#work",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -52,7 +61,7 @@
         },
         {
             "label": "Book a shoot",
-            "altText": "Jump to contact form",
+            "altText": "Contact form anchor",
             "url": "/#contact",
             "icon": "arrowRight",
             "iconPosition": "right",
