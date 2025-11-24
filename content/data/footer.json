@@ -4,14 +4,14 @@
         "altText": "Ayberk Aktürk mark",
         "type": "ImageBlock"
     },
-    "text": "Ayberk Aktürk is a Vancouver-based software engineer and videographer crafting calm digital products and cinematic stories.",
+    "text": "Ayberk Aktürk is a Vancouver-based cinematographer capturing thoughtful brand films and intimate documentaries.",
     "primaryLinks": {
         "title": "Navigate",
         "links": [
             {
-                "label": "Work",
-                "altText": "Selected work section",
-                "url": "/#work",
+                "label": "Scenes",
+                "altText": "Scenes section",
+                "url": "/#scenes",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -27,9 +27,9 @@
                 "type": "Link"
             },
             {
-                "label": "Films",
-                "altText": "Films & reels",
-                "url": "/#films",
+                "label": "Approach",
+                "altText": "Approach section",
+                "url": "/#approach",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -42,18 +42,18 @@
         "title": "Contact",
         "links": [
             {
-                "label": "Collaborate",
-                "altText": "Contact section",
-                "url": "/#contact",
+                "label": "Email",
+                "altText": "Email Ayberk",
+                "url": "mailto:hello@ayberkakturk.com",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Email",
-                "altText": "Email Ayberk",
-                "url": "mailto:hello@ayberkakturk.com",
+                "label": "Contact",
+                "altText": "Contact section",
+                "url": "/#contact",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

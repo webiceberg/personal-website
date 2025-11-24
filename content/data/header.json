@@ -13,18 +13,9 @@
     },
     "primaryLinks": [
         {
-            "label": "Work",
-            "altText": "Jump to selected work",
-            "url": "/#work",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Studio",
-            "altText": "Jump to studio snapshot",
-            "url": "/#studio",
+            "label": "Scenes",
+            "altText": "Jump to highlight section",
+            "url": "/#scenes",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -40,9 +31,18 @@
             "type": "Link"
         },
         {
-            "label": "Films",
-            "altText": "Jump to films & reels",
-            "url": "/#films",
+            "label": "Approach",
+            "altText": "Jump to approach section",
+            "url": "/#approach",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Contact",
+            "altText": "Jump to contact section",
+            "url": "/#contact",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -60,8 +60,8 @@
             "type": "Button"
         },
         {
-            "label": "Book a call",
-            "altText": "Contact form anchor",
+            "label": "Book Ayberk",
+            "altText": "Book Ayberk",
             "url": "/#contact",
             "icon": "arrowRight",
             "iconPosition": "right",
