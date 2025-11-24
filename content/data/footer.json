@@ -90,6 +90,6 @@
     ],
     "legalLinks": [],
     "copyrightText": "© {{year}} Ayberk Aktürk. Built with craft, shipped with intent.",
-    "colors": "bg-dark-fg-light",
+    "colors": "bg-light-fg-dark",
     "type": "Footer"
 }
