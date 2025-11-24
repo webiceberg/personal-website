@@ -22,27 +22,27 @@
             "type": "Link"
         },
         {
+            "label": "Studio",
+            "altText": "Jump to studio snapshot",
+            "url": "/#studio",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Services",
+            "altText": "Jump to services",
+            "url": "/#services",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
             "label": "Films",
             "altText": "Jump to films & reels",
             "url": "/#films",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Process",
-            "altText": "Jump to process section",
-            "url": "/#process",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "About",
-            "altText": "Jump to about section",
-            "url": "/#about",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",

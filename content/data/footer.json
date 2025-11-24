@@ -18,18 +18,18 @@
                 "type": "Link"
             },
             {
-                "label": "Films",
-                "altText": "Films & reels",
-                "url": "/#films",
+                "label": "Services",
+                "altText": "Services section",
+                "url": "/#services",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Process",
-                "altText": "Process section",
-                "url": "/#process",
+                "label": "Films",
+                "altText": "Films & reels",
+                "url": "/#films",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -42,9 +42,9 @@
         "title": "Contact",
         "links": [
             {
-                "label": "About",
-                "altText": "About section",
-                "url": "/#about",
+                "label": "Collaborate",
+                "altText": "Contact section",
+                "url": "/#contact",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

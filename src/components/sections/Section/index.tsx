@@ -17,8 +17,15 @@ export default function Section(props) {
                 className,
                 colors,
                 'relative',
+                'rounded-[2rem]',
+                'md:rounded-[3rem]',
+                'overflow-hidden',
+                'shadow-[0_35px_80px_rgba(15,16,20,0.12)]',
+                'border',
+                'border-black/5',
+                'transition-colors',
                 styles?.margin ? mapStyles({ margin: styles?.margin }) : undefined,
-                styles?.padding ? mapStyles({ padding: styles?.padding }) : 'px-4 py-28'
+                styles?.padding ? mapStyles({ padding: styles?.padding }) : 'px-6 py-20'
             )}
             {...getDataAttrs(props)}
         >
