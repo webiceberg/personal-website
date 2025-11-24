@@ -3,193 +3,287 @@ title: Home
 slug: /
 sections:
   - type: GenericSection
+    elementId: hero
+    colors: bg-light-fg-dark
+    badge:
+      label: Portfolio 2025
+      color: text-primary
+      type: Badge
     title:
-      text: Unblock your team boost your time to production
+      text: Ayberk Aktürk
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
-    text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+    subtitle: Software Engineer · Videographer
+    text: |-
+      I build calm, human products by day and craft cinematic stories by night.
+      The overlap is intentional—systems thinking, precision lighting, and
+      taste. Every engagement is bespoke, intentional, and obsessively
+      simplified.
     actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
+      - label: View my work
+        altText: Jump to selected work
+        url: /#work
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
+        type: Button
+      - label: Watch the reel
+        altText: Jump to film section
+        url: /#films
+        showIcon: true
+        icon: play
+        iconPosition: right
+        style: secondary
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
-      elementId: ''
+      url: /images/main-hero.jpg
+      altText: Minimal workspace with camera and laptop
       type: ImageBlock
+      styles:
+        self:
+          borderRadius: x-large
+    styles:
+      self:
+        alignItems: center
+        flexDirection: row
+        padding:
+          - pt-24
+          - pb-24
+          - pl-16
+          - pr-16
+  - type: FeaturedItemsSection
+    elementId: services
+    title:
+      text: Digital calm meets cinematic energy
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Product engineering, creative direction, and film-making under one roof.
+    items:
+      - type: FeaturedItem
+        title: Product Engineering
+        text: >-
+          Technical direction, full-stack web builds, and native-quality
+          front-ends with Next.js, TypeScript, and performant cloud
+          infrastructure.
+        image:
+          url: /images/icon1.svg
+          altText: Icon representing engineering
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pb-8
+              - pl-8
+              - pr-8
+            borderRadius: x-large
+      - type: FeaturedItem
+        title: Experience Design
+        text: >-
+          Apple-like attention to typography, motion, and negative space that
+          keeps focus on the story—not the interface.
+        image:
+          url: /images/icon2.svg
+          altText: Icon representing design
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pb-8
+              - pl-8
+              - pr-8
+            borderRadius: x-large
+      - type: FeaturedItem
+        title: Cinematic Production
+        text: >-
+          Direction, cinematography, and post-production for narrative
+          commercials, launch films, and documentaries.
+        image:
+          url: /images/icon3.svg
+          altText: Icon representing cinematography
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pb-8
+              - pl-8
+              - pr-8
+            borderRadius: x-large
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-20
+          - pb-20
+          - pl-10
+          - pr-10
+  - type: GenericSection
+    elementId: about
+    colors: bg-light-fg-dark
     badge:
-      label: This is a badge
+      label: About Ayberk
       color: text-primary
       type: Badge
-    elementId: ''
-    colors: bg-light-fg-dark
+    title:
+      text: Building serene experiences with precision
+      color: text-dark
+      type: TitleBlock
+    subtitle: >-
+      Istanbul roots, Vancouver craft — translating complex products into calm horsepower.
+    text: |-
+      I’ve spent the last 8 years shipping software for venture-backed teams and
+      cinematic spots for brands that care about storytelling. Whether I’m
+      pairing TypeScript with edge APIs or color-grading footage, the work is
+      guided by restraint, obsessive detail, and measurable outcomes.
+    actions:
+      - label: Read my process
+        url: /#process
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Link
+    media:
+      url: /images/hero2.svg
+      altText: Abstract portfolio illustration
+      type: ImageBlock
     styles:
       self:
         alignItems: center
         flexDirection: row
         padding:
           - pt-16
-          - pl-16
           - pb-16
+          - pl-16
           - pr-16
   - type: FeaturedItemsSection
+    elementId: work
     title:
-      text: Key Benefits
+      text: Selected work
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Partnerships across health, fintech, and storytelling.
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: Atlas OS
+        subtitle: Systems dashboard for a biomedical startup
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        actions: []
-        elementId: null
+          Led product engineering and visual direction; designed a modular UI
+          kit, delivered 40% faster load times, and produced a launch film for investors.
+        image:
+          url: /images/abstract-feature1.svg
+          altText: Atlas OS preview
+          type: ImageBlock
+        actions:
+          - label: Request a walkthrough
+            url: mailto:hello@ayberkakturk.com?subject=Atlas%20OS
+            style: secondary
+            icon: arrowRight
+            iconPosition: right
+            type: Link
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
               - pt-8
-              - pl-8
               - pb-8
+              - pl-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
-        image:
-          type: ImageBlock
-          altText: Lightning bolt symbol on red background
-          elementId: ''
-          url: /images/icon1.svg
-          styles:
-            self:
-              borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - type: FeaturedItem
+        title: Vise Markets
+        subtitle: Trading intelligence platform
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Architected a multi-tenant Next.js app with live market video
+          explainers; directed product film shot on FX6 with custom lighting rig.
         image:
-          url: /images/icon2.svg
-          altText: Featured icon two
-          elementId: ''
+          url: /images/abstract-feature2.svg
+          altText: Vise app preview
           type: ImageBlock
-        actions: []
+        actions:
+          - label: Explore the case study
+            url: /blog/case-study-1
+            style: secondary
+            icon: arrowRight
+            iconPosition: right
+            type: Link
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
               - pt-8
-              - pl-8
               - pb-8
+              - pl-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-            textAlign: left
-            justifyContent: center
-        type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - type: FeaturedItem
+        title: Telus Health Films
+        subtitle: Cinematic stories for clinical teams
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Wrote, shot, and delivered a suite of 4K films to humanize technical
+          products; combined gimbal shots with macro optics for a soft tactile feel.
         image:
-          url: /images/icon3.svg
-          altText: Featured icon three
-          elementId: ''
+          url: /images/abstract-feature3.svg
+          altText: Telus Health still frame
           type: ImageBlock
-        actions: []
+        actions:
+          - label: Watch a teaser
+            url: /#films
+            style: secondary
+            icon: play
+            iconPosition: right
+            type: Link
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
               - pt-8
-              - pl-8
               - pb-8
+              - pl-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
-        type: FeaturedItem
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
-    badge:
-      label: This is a badge
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    elementId: ''
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         padding:
-          - pb-16
-          - pt-16
-          - pl-16
-          - pr-16
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - subtitle: Award winning enterprises trust us
+          - pt-20
+          - pb-20
+          - pl-10
+          - pr-10
+  - type: ImageGallerySection
+    elementId: clients
+    subtitle: Trusted by thoughtful teams and collaborators
     images:
       - url: /images/empathy-logo.svg
-        altText: Empathy logo
+        altText: Empathy
         type: ImageBlock
       - url: /images/wellster-logo.svg
-        altText: Wellster logo
+        altText: Wellster
         type: ImageBlock
       - url: /images/vise-logo.svg
-        altText: Vise logo
+        altText: Vise
         type: ImageBlock
       - url: /images/telus-logo.svg
-        altText: Telus logo
+        altText: Telus
         type: ImageBlock
       - url: /images/contenful-logo.svg
-        altText: Contentful logo
+        altText: Contentful
         type: ImageBlock
       - url: /images/sanity-logo.svg
-        altText: Sanity logo
-        type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
+        altText: Sanity
         type: ImageBlock
     motion: move-to-left
     colors: bg-light-fg-dark
@@ -198,106 +292,63 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - title:
-      text: Grow your business 10x faster
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
+  - type: GenericSection
+    elementId: process
+    colors: bg-neutral-fg-dark
     badge:
-      label: Key Benefits
+      label: Process
       color: text-primary
-      styles:
-        self:
-          textAlign: center
       type: Badge
-    colors: bg-light-fg-dark
+    title:
+      text: A calm, three-beat cadence
+      color: text-dark
+      type: TitleBlock
+    text: |-
+      1. **Orientation.** Co-create the intention for the product or film,
+      define constraints, and outline measurable outcomes.
+
+      2. **Build & shoot.** Parallel engineering and production sprints with
+      transparent check-ins, dailies, and async looms—no surprises.
+
+      3. **Polish & deliver.** Finishing passes, color, mix, QA, and knowledge
+      transfer. Every asset is versioned and handed off with care.
     styles:
       self:
         flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
+        padding:
+          - pt-16
+          - pb-16
+          - pl-16
+          - pr-16
   - type: GenericSection
+    elementId: films
+    colors: bg-light-fg-dark
+    badge:
+      label: Film & motion
+      color: text-primary
+      type: Badge
     title:
-      text: Generic section with a video
+      text: 2025 showreel
       color: text-dark
-      styles:
-        self:
-          textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    subtitle: Hybrid of RED + Sony FX6 footage, practical lighting, and tactile sound design.
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
+      Shot across Vancouver, Istanbul, and Lisbon. Intimate product shots,
+      docu-style interviews, and atmospheric cityscapes. Audio mixed in Dolby Atmos.
+    actions:
+      - label: Open on YouTube
+        url: https://www.youtube.com/
+        icon: play
+        iconPosition: right
+        style: secondary
+        type: Link
     media:
-      title: Title of the video
+      title: Ayberk Aktürk Reel
       url: /images/placeholder-video.mp4
       autoplay: true
       loop: true
       muted: true
-      controls: false
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -311,385 +362,40 @@ sections:
           borderWidth: 1
           borderRadius: large
       type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
     styles:
       self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
-  - title:
-      text: Social Media Management
-      color: text-dark
-      type: TitleBlock
-    subtitle: Increase your reach
-    text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero2.svg
-      altText: Fun feature preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-    type: GenericSection
-  - title:
-      text: Business Consulting
-      color: text-dark
-      type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
-    actions:
-      - label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Dope design preview
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-    type: GenericSection
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - type: CarouselSection
-    title: null
-    subtitle: What our customers say about us
-    items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-    elementId: null
-    variant: next-prev-nav
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - title:
-      text: List of features here
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Featured items section subtitle
-    items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
+        flexDirection: col
         padding:
           - pt-16
-          - pl-8
           - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: FeaturedItemsSection
-  - title:
-      text: Generic Section With A Form
+          - pl-16
+          - pr-16
+  - type: GenericSection
+    elementId: contact
+    colors: bg-light-fg-dark
+    badge:
+      label: Collaborate
+      color: text-primary
+      type: Badge
+    title:
+      text: Tell me about your next launch
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: I take on one product build or film suite at a time to stay sharp.
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Send a quick brief, mood board, or even a voice note. I’ll reply within
+      two business days with availability and a POV on how we can make it
+      memorable.
     media:
+      type: FormBlock
+      elementId: contact-form
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Send message
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
       fields:
         - name: name
           label: Name
@@ -705,13 +411,12 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
-        - name: message
-          label: Message
+        - name: project
+          label: Project type
           hideLabel: true
-          placeholder: Your message
+          placeholder: What are we building or filming?
           width: full
           type: TextareaFormControl
-      elementId: contact-form
       styles:
         self:
           padding:
@@ -723,24 +428,18 @@ sections:
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
-      type: FormBlock
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: null
-    badge:
-      label: Contact Us
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    type: GenericSection
+    styles:
+      self:
+        flexDirection: row
+        alignItems: center
+        padding:
+          - pt-16
+          - pb-16
+          - pl-16
+          - pr-16
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaTitle: Ayberk Aktürk — Software Engineer & Videographer
+  metaDescription: Portfolio for Ayberk Aktürk, a Vancouver-based software engineer and videographer crafting serene digital products and cinematic films.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
